@@ -38,7 +38,6 @@ export default function RegisterPage() {
         throw new Error(data.error || 'Something went wrong');
       }
 
-      // Redirect to login page after successful registration
       router.push('/login');
     } catch (error: any) {
       setError(error.message);
