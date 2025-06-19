@@ -6,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Authentication App',
-  description: 'A simple authentication app with Next.js and MongoDB',
+  title: 'Spriggly',
+  description: 'A simple Grow a Garden game totally not inspired by Roblox',
 };
 
 export default async function RootLayout({
